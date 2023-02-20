@@ -9,11 +9,10 @@ import org.apache.logging.log4j.Logger;
 import taxi.controller.IndexController;
 
 public class ConnectionUtil {
-    private static final String URL =
-            "jdbc:mysql://localhost:3306/taxi_service_db?serverTimezone=UTC";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "_A1b2c3d4e5_";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "URL";
+    private static final String USERNAME = "USERNAME";
+    private static final String PASSWORD = "PASSWORD";
+    private static final String JDBC_DRIVER = "JDBC_DRIVER";
     private static final Logger logger = LogManager.getLogger(IndexController.class);
 
     static {
